@@ -5,12 +5,7 @@ const AboutStatsSection = () => {
         {/* About Text */}
         <div className="max-w-4xl mb-24 animate-on-scroll">
           <p className="text-2xl lg:text-3xl font-light text-foreground leading-relaxed">
-            Digital Printz® é uma gráfica digital premiada com sede no Brasil, 
-            fundada em 2018, especializada em branding, design editorial, 
-            packaging e impressão de alta qualidade. Com mais de uma década 
-            de experiência combinada da equipe, a empresa oferece soluções 
-            inovadoras e impactantes sob medida para uma ampla gama de 
-            indústrias, incluindo corporativo, varejo e lifestyle.{" "}
+            Somos a Digital Printz, uma gráfica não convencional. Queremos oferecer inovação e tecnologia, sem impeditivos para nosso cliente. A Digital Printz veio para quebrar barreiras. Queremos descontrair o mercado com criatividade impressa no papel. Nossa marca não é apenas de tecnologia, é feita de pessoas que ouvem, analisam e discutem seus projetos. Com isso, indicamos a solução ideal, customizada de acordo com as necessidades da sua empresa. E tudo feito com alta qualidade.{" "}
             <span className="text-primary cursor-pointer hover:text-primary/80 transition-colors">
               Veja nosso trabalho ›
             </span>
