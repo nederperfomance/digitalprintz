@@ -31,8 +31,8 @@ const ModernServices = () => {
   const [activeService, setActiveService] = useState(0);
 
   return (
-    <section className="py-32 bg-background">
-      <div className="max-w-7xl mx-auto px-8">
+    <section className="py-32 bg-secondary/30">
+      <div className="w-full px-8 lg:px-16">
         <div className="mb-24 animate-on-scroll">
           <div className="flex items-center space-x-4 mb-8">
             <div className="w-12 h-0.5 bg-primary"></div>

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const ModernContact = () => {
   return (
     <section className="py-32 bg-foreground text-background">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="w-full px-8 lg:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div className="animate-on-scroll">
             <h2 className="text-6xl font-light mb-8 leading-tight">

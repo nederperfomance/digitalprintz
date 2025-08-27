@@ -1,11 +1,11 @@
 import ModernHeader from "@/components/ModernHeader";
 import ModernHero from "@/components/ModernHero";
+import BrandingHero from "@/components/BrandingHero";
 import StatsSection from "@/components/StatsSection";
 import ModernServices from "@/components/ModernServices";
-import ModernCarousel from "@/components/ModernCarousel";
-import PortfolioSection from "@/components/PortfolioSection";
+import VideoSection from "@/components/VideoSection";
+import InteractivePortfolio from "@/components/InteractivePortfolio";
 import ProcessSection from "@/components/ProcessSection";
-import TeamSection from "@/components/TeamSection";
 import ModernContact from "@/components/ModernContact";
 
 const Index = () => {
@@ -13,12 +13,12 @@ const Index = () => {
     <div className="min-h-screen">
       <ModernHeader />
       <ModernHero />
+      <BrandingHero />
       <StatsSection />
       <ModernServices />
-      <ModernCarousel />
-      <PortfolioSection />
+      <VideoSection />
+      <InteractivePortfolio />
       <ProcessSection />
-      <TeamSection />
       <ModernContact />
     </div>
   );

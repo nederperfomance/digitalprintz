@@ -16,7 +16,7 @@ const stats = [
 const StatsSection = () => {
   return (
     <section className="py-32 bg-secondary/30">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="w-full px-8 lg:px-16">
         <div className="mb-16 animate-on-scroll max-w-3xl">
           <p className="text-lg font-light text-foreground leading-relaxed">
             A Digital Printz® é uma gráfica especializada em soluções criativas, 
