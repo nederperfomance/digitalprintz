@@ -7,9 +7,9 @@ const portfolioProjects = [
   },
   {
     id: 2,
-    title: "Catálogo Premium",
-    category: "EDITORIAL", 
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    title: "Sacolas e Material Promocional",
+    category: "FARM RIO + ADIDAS", 
+    image: "/lovable-uploads/5138c174-53f7-402d-bf6b-eb22fd5d8d41.png"
   },
   {
     id: 3,
