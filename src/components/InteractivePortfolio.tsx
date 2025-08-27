@@ -2,7 +2,7 @@ const portfolioProjects = [{
   id: 1,
   title: "Impressão do Book",
   category: "RESERVA",
-  image: "/lovable-uploads/55de7012-4855-4d02-b886-370077b379bc.png"
+  image: "/lovable-uploads/b663e2d4-1b7f-4f59-aea8-15f072c9bbf0.png"
 }, {
   id: 2,
   title: "Sacolas e Material Promocional",
