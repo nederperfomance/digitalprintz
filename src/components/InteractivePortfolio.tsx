@@ -5,18 +5,18 @@ const portfolioProjects = [{
   image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
 }, {
   id: 2,
-  title: "Catálogo Premium",
-  category: "EDITORIAL",
-  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+  title: "Sacolas e Material Promocional",
+  category: "FARM RIO + ADIDAS",
+  image: "/lovable-uploads/3c6ffee0-5eaa-4384-b4c8-b26c4d0c0bbf.png"
 }, {
   id: 3,
   title: "Packaging Inovador",
   category: "PACKAGING",
-  image: "https://images.unsplash.com/photo-1567306301408-9b74779a11af?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+  image: "/lovable-uploads/5138c174-53f7-402d-bf6b-eb22fd5d8d41.png"
 }];
 const InteractivePortfolio = () => {
   return <section className="py-32 bg-background">
-      <div className="w-full px-8 lg:px-16">
+      <div className="container mx-auto px-8">
         {/* Header */}
         <div className="mb-24 animate-on-scroll">
           <div className="flex items-center space-x-4 mb-8">
