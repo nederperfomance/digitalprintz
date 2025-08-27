@@ -2,6 +2,7 @@ import ModernHeader from "@/components/ModernHeader";
 import ModernHero from "@/components/ModernHero";
 import StatsSection from "@/components/StatsSection";
 import ModernServices from "@/components/ModernServices";
+import ModernCarousel from "@/components/ModernCarousel";
 import PortfolioSection from "@/components/PortfolioSection";
 import ProcessSection from "@/components/ProcessSection";
 import TeamSection from "@/components/TeamSection";
@@ -14,6 +15,7 @@ const Index = () => {
       <ModernHero />
       <StatsSection />
       <ModernServices />
+      <ModernCarousel />
       <PortfolioSection />
       <ProcessSection />
       <TeamSection />
