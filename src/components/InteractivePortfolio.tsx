@@ -22,7 +22,7 @@ const portfolioProjects = [
 const InteractivePortfolio = () => {
   return (
     <section className="py-32 bg-background">
-      <div className="w-full px-8 lg:px-16">
+      <div className="container mx-auto px-8">
         {/* Header */}
         <div className="mb-24 animate-on-scroll">
           <div className="flex items-center space-x-4 mb-8">
