@@ -33,7 +33,7 @@ const AboutStatsSection = () => {
           <div className="animate-on-scroll">
             <div className="border-b border-border pb-8 mb-8">
               <h3 className="text-8xl lg:text-9xl font-light text-foreground mb-0 leading-none">
-                6
+                2<span className="text-primary">.</span>000m²
               </h3>
             </div>
             <p className="text-lg font-light text-foreground leading-relaxed">
