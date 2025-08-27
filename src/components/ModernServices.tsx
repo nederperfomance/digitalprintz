@@ -57,7 +57,7 @@ const ModernServices = () => {
                 onClick={() => setActiveService(index)}
               >
                 <div className="flex items-start space-x-6">
-                  <span className={`text-4xl font-light transition-colors duration-300 ${
+                  <span className={`text-2xl font-light transition-colors duration-300 ${
                     activeService === index 
                       ? 'text-primary' 
                       : 'text-muted-foreground/30'
@@ -66,7 +66,7 @@ const ModernServices = () => {
                   </span>
                   
                   <div className="flex-1">
-                    <h3 className={`text-3xl font-light transition-colors duration-300 ${
+                    <h3 className={`text-2xl font-light transition-colors duration-300 ${
                       activeService === index 
                         ? 'text-foreground' 
                         : 'text-muted-foreground'
@@ -103,12 +103,12 @@ const ModernServices = () => {
                 ))}
               </div>
               
-              <p className="text-xl font-light text-muted-foreground leading-relaxed">
+              <p className="text-lg font-light text-muted-foreground leading-relaxed">
                 {services[activeService].description}
               </p>
               
               <div className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors cursor-pointer group">
-                <span className="text-sm font-medium tracking-wide">SAIBA MAIS SOBRE {services[activeService].title.toUpperCase()}</span>
+                <span className="text-sm font-medium tracking-wide">Learn more</span>
                 <svg 
                   className="w-4 h-4 group-hover:translate-x-1 transition-transform" 
                   fill="none" 
