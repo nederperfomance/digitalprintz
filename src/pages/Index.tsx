@@ -1,7 +1,7 @@
 import ModernHeader from "@/components/ModernHeader";
 import ModernHero from "@/components/ModernHero";
 import BrandingHero from "@/components/BrandingHero";
-import StatsSection from "@/components/StatsSection";
+import AboutStatsSection from "@/components/AboutStatsSection";
 import ModernServices from "@/components/ModernServices";
 import VideoSection from "@/components/VideoSection";
 import InteractivePortfolio from "@/components/InteractivePortfolio";
@@ -15,7 +15,7 @@ const Index = () => {
       <ModernHeader />
       <ModernHero />
       <BrandingHero />
-      <StatsSection />
+      <AboutStatsSection />
       <ModernServices />
       <VideoSection />
       <InteractivePortfolio />
