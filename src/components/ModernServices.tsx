@@ -56,17 +56,17 @@ const ModernServices = () => {
                 onMouseEnter={() => setActiveService(index)}
                 onClick={() => setActiveService(index)}
               >
-                <div className="flex items-start space-x-6">
-                  <span className={`text-2xl font-light transition-colors duration-300 ${
+                <div className="flex items-start space-x-8">
+                  <span className={`text-7xl font-light transition-colors duration-300 ${
                     activeService === index 
                       ? 'text-primary' 
-                      : 'text-muted-foreground/30'
+                      : 'text-muted-foreground/40'
                   }`}>
                     {service.number}
                   </span>
                   
                   <div className="flex-1">
-                    <h3 className={`text-2xl font-light transition-colors duration-300 ${
+                    <h3 className={`text-5xl font-light transition-colors duration-300 ${
                       activeService === index 
                         ? 'text-foreground' 
                         : 'text-muted-foreground'
@@ -103,7 +103,7 @@ const ModernServices = () => {
                 ))}
               </div>
               
-              <p className="text-lg font-light text-muted-foreground leading-relaxed">
+              <p className="text-xl font-light text-muted-foreground leading-relaxed">
                 {services[activeService].description}
               </p>
               
