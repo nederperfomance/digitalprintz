@@ -37,10 +37,10 @@ const AboutStatsSection = () => {
               </h3>
             </div>
             <p className="text-lg font-light text-foreground leading-relaxed">
-              clientes atendidos com 
-              soluções personalizadas 
-              de design e impressão 
-              digital de qualidade
+              colaboradores envolvidos 
+              de forma direta e indireta 
+              na produção e atendimento 
+              aos nossos clientes
             </p>
           </div>
 
