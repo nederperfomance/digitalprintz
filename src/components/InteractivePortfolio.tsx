@@ -1,22 +1,28 @@
-const portfolioProjects = [{
-  id: 1,
-  title: "Identidade Visual Completa",
-  category: "BRANDING",
-  image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-}, {
-  id: 2,
-  title: "Catálogo Premium",
-  category: "EDITORIAL",
-  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-}, {
-  id: 3,
-  title: "Packaging Inovador",
-  category: "PACKAGING",
-  image: "https://images.unsplash.com/photo-1567306301408-9b74779a11af?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-}];
+const portfolioProjects = [
+  {
+    id: 1,
+    title: "Impressão do Book",
+    category: "RESERVA",
+    image: "/lovable-uploads/3c6ffee0-5eaa-4384-b4c8-b26c4d0c0bbf.png"
+  },
+  {
+    id: 2,
+    title: "Sacolas e Material Promocional",
+    category: "FARM RIO + ADIDAS", 
+    image: "/lovable-uploads/5138c174-53f7-402d-bf6b-eb22fd5d8d41.png"
+  },
+  {
+    id: 3,
+    title: "Packaging Inovador",
+    category: "PACKAGING",
+    image: "https://images.unsplash.com/photo-1567306301408-9b74779a11af?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+  }
+];
+
 const InteractivePortfolio = () => {
-  return <section className="py-32 bg-background">
-      <div className="w-full px-8 lg:px-[50px]">
+  return (
+    <section className="py-32 bg-background">
+      <div className="w-full px-8 lg:px-16">
         {/* Header */}
         <div className="mb-24 animate-on-scroll">
           <div className="flex items-center space-x-4 mb-8">
@@ -32,12 +38,16 @@ const InteractivePortfolio = () => {
           </h2>
         </div>
 
-        {/* Asymmetric Grid - 1 Large + 2 Small */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl">
+        {/* Asymmetric Grid - 1 Large + 2 Small - Centered */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-none mx-auto">
           {/* Large Project - Left Side */}
           <div className="group cursor-pointer animate-on-scroll">
-            <div className="relative aspect-[4/3] overflow-hidden bg-muted">
-              <img src={portfolioProjects[0].image} alt={portfolioProjects[0].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div className="relative aspect-[4/3] overflow-hidden bg-muted h-[70vh] min-h-[500px]">
+              <img 
+                src={portfolioProjects[0].image} 
+                alt={portfolioProjects[0].title}
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               
               {/* Number */}
@@ -62,27 +72,31 @@ const InteractivePortfolio = () => {
           </div>
 
           {/* Right Side - 2 Small Projects Stacked */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-8">
             {/* Project 2 */}
-            <div className="group cursor-pointer animate-on-scroll mx-0 px-[250px]">
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
-                <img src={portfolioProjects[1].image} alt={portfolioProjects[1].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent mx-0"></div>
+            <div className="group cursor-pointer animate-on-scroll">
+              <div className="relative aspect-[4/3] overflow-hidden bg-muted h-[33vh] min-h-[240px]">
+                <img 
+                  src={portfolioProjects[1].image} 
+                  alt={portfolioProjects[1].title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
                 {/* Number */}
-                <div className="absolute top-6 left-6">
-                  <div className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                    <span className="text-xs font-medium text-white">02</span>
+                <div className="absolute top-8 left-8">
+                  <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <span className="text-sm font-medium text-white">02</span>
                   </div>
                 </div>
                 
                 {/* Content */}
-                <div className="absolute bottom-6 left-6 right-6">
+                <div className="absolute bottom-8 left-8 right-8">
                   <div className="text-white">
-                    <span className="text-xs font-light tracking-widest opacity-80 block mb-1">
+                    <span className="text-sm font-light tracking-widest opacity-80 block mb-2">
                       {portfolioProjects[1].category}
                     </span>
-                    <h3 className="text-xl font-light mb-2">
+                    <h3 className="text-2xl lg:text-3xl font-light mb-4">
                       {portfolioProjects[1].title}
                     </h3>
                   </div>
@@ -91,25 +105,29 @@ const InteractivePortfolio = () => {
             </div>
 
             {/* Project 3 */}
-            <div className="group cursor-pointer animate-on-scroll px-[250px]">
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
-                <img src={portfolioProjects[2].image} alt={portfolioProjects[2].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <div className="group cursor-pointer animate-on-scroll">
+              <div className="relative aspect-[4/3] overflow-hidden bg-muted h-[33vh] min-h-[240px]">
+                <img 
+                  src={portfolioProjects[2].image} 
+                  alt={portfolioProjects[2].title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
                 {/* Number */}
-                <div className="absolute top-6 left-6">
-                  <div className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                    <span className="text-xs font-medium text-white">03</span>
+                <div className="absolute top-8 left-8">
+                  <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <span className="text-sm font-medium text-white">03</span>
                   </div>
                 </div>
                 
                 {/* Content */}
-                <div className="absolute bottom-6 left-6 right-6">
+                <div className="absolute bottom-8 left-8 right-8">
                   <div className="text-white">
-                    <span className="text-xs font-light tracking-widest opacity-80 block mb-1">
+                    <span className="text-sm font-light tracking-widest opacity-80 block mb-2">
                       {portfolioProjects[2].category}
                     </span>
-                    <h3 className="text-xl font-light mb-2">
+                    <h3 className="text-2xl lg:text-3xl font-light mb-4">
                       {portfolioProjects[2].title}
                     </h3>
                   </div>
@@ -123,12 +141,19 @@ const InteractivePortfolio = () => {
         <div className="mt-16 text-center animate-on-scroll">
           <div className="inline-flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors cursor-pointer group">
             <span className="text-sm font-medium tracking-wide">VER TODOS OS PROJETOS</span>
-            <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg 
+              className="w-4 h-4 group-hover:translate-x-1 transition-transform" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
             </svg>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default InteractivePortfolio;
