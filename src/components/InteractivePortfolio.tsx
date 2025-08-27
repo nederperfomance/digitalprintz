@@ -1,8 +1,8 @@
 const portfolioProjects = [{
   id: 1,
-  title: "Identidade Visual Completa",
-  category: "BRANDING",
-  image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  title: "Impressão do Book",
+  category: "RESERVA",
+  image: "/lovable-uploads/55de7012-4855-4d02-b886-370077b379bc.png"
 }, {
   id: 2,
   title: "Sacolas e Material Promocional",
@@ -33,10 +33,10 @@ const InteractivePortfolio = () => {
         </div>
 
         {/* Asymmetric Grid - 1 Large + 2 Small */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl">
-          {/* Large Project - Left Side */}
-          <div className="group cursor-pointer animate-on-scroll">
-            <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl">
+          {/* Large Project - Left Side (2/3 width) */}
+          <div className="lg:col-span-2 group cursor-pointer animate-on-scroll">
+            <div className="relative aspect-[3/2] overflow-hidden bg-muted">
               <img src={portfolioProjects[0].image} alt={portfolioProjects[0].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               
@@ -61,11 +61,11 @@ const InteractivePortfolio = () => {
             </div>
           </div>
 
-          {/* Right Side - 2 Small Projects Stacked */}
-          <div className="flex flex-col gap-6">
+          {/* Right Side - 2 Small Projects Stacked (1/3 width each) */}
+          <div className="flex flex-col gap-4">
             {/* Project 2 */}
-            <div className="group cursor-pointer animate-on-scroll mx-0">
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+            <div className="group cursor-pointer animate-on-scroll">
+              <div className="relative aspect-[3/2] overflow-hidden bg-muted">
                 <img src={portfolioProjects[1].image} alt={portfolioProjects[1].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
@@ -82,7 +82,7 @@ const InteractivePortfolio = () => {
                     <span className="text-xs font-light tracking-widest opacity-80 block mb-1">
                       {portfolioProjects[1].category}
                     </span>
-                    <h3 className="text-xl font-light mb-2">
+                    <h3 className="text-lg font-light mb-2">
                       {portfolioProjects[1].title}
                     </h3>
                   </div>
@@ -92,7 +92,7 @@ const InteractivePortfolio = () => {
 
             {/* Project 3 */}
             <div className="group cursor-pointer animate-on-scroll">
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+              <div className="relative aspect-[3/2] overflow-hidden bg-muted">
                 <img src={portfolioProjects[2].image} alt={portfolioProjects[2].title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
@@ -109,7 +109,7 @@ const InteractivePortfolio = () => {
                     <span className="text-xs font-light tracking-widest opacity-80 block mb-1">
                       {portfolioProjects[2].category}
                     </span>
-                    <h3 className="text-xl font-light mb-2">
+                    <h3 className="text-lg font-light mb-2">
                       {portfolioProjects[2].title}
                     </h3>
                   </div>
