@@ -38,11 +38,11 @@ const InteractivePortfolio = () => {
           </h2>
         </div>
 
-        {/* Asymmetric Grid - 1 Large + 2 Small */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-7xl">
+        {/* Asymmetric Grid - 1 Large + 2 Small - Centered */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-none mx-auto">
           {/* Large Project - Left Side */}
           <div className="group cursor-pointer animate-on-scroll">
-            <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+            <div className="relative aspect-[4/3] overflow-hidden bg-muted h-[70vh] min-h-[500px]">
               <img 
                 src={portfolioProjects[0].image} 
                 alt={portfolioProjects[0].title}
@@ -72,10 +72,10 @@ const InteractivePortfolio = () => {
           </div>
 
           {/* Right Side - 2 Small Projects Stacked */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-8">
             {/* Project 2 */}
             <div className="group cursor-pointer animate-on-scroll">
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+              <div className="relative aspect-[4/3] overflow-hidden bg-muted h-[33vh] min-h-[240px]">
                 <img 
                   src={portfolioProjects[1].image} 
                   alt={portfolioProjects[1].title}
@@ -84,19 +84,19 @@ const InteractivePortfolio = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
                 {/* Number */}
-                <div className="absolute top-6 left-6">
-                  <div className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                    <span className="text-xs font-medium text-white">02</span>
+                <div className="absolute top-8 left-8">
+                  <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <span className="text-sm font-medium text-white">02</span>
                   </div>
                 </div>
                 
                 {/* Content */}
-                <div className="absolute bottom-6 left-6 right-6">
+                <div className="absolute bottom-8 left-8 right-8">
                   <div className="text-white">
-                    <span className="text-xs font-light tracking-widest opacity-80 block mb-1">
+                    <span className="text-sm font-light tracking-widest opacity-80 block mb-2">
                       {portfolioProjects[1].category}
                     </span>
-                    <h3 className="text-xl font-light mb-2">
+                    <h3 className="text-2xl lg:text-3xl font-light mb-4">
                       {portfolioProjects[1].title}
                     </h3>
                   </div>
@@ -106,7 +106,7 @@ const InteractivePortfolio = () => {
 
             {/* Project 3 */}
             <div className="group cursor-pointer animate-on-scroll">
-              <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+              <div className="relative aspect-[4/3] overflow-hidden bg-muted h-[33vh] min-h-[240px]">
                 <img 
                   src={portfolioProjects[2].image} 
                   alt={portfolioProjects[2].title}
@@ -115,19 +115,19 @@ const InteractivePortfolio = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
                 {/* Number */}
-                <div className="absolute top-6 left-6">
-                  <div className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-                    <span className="text-xs font-medium text-white">03</span>
+                <div className="absolute top-8 left-8">
+                  <div className="w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <span className="text-sm font-medium text-white">03</span>
                   </div>
                 </div>
                 
                 {/* Content */}
-                <div className="absolute bottom-6 left-6 right-6">
+                <div className="absolute bottom-8 left-8 right-8">
                   <div className="text-white">
-                    <span className="text-xs font-light tracking-widest opacity-80 block mb-1">
+                    <span className="text-sm font-light tracking-widest opacity-80 block mb-2">
                       {portfolioProjects[2].category}
                     </span>
-                    <h3 className="text-xl font-light mb-2">
+                    <h3 className="text-2xl lg:text-3xl font-light mb-4">
                       {portfolioProjects[2].title}
                     </h3>
                   </div>
