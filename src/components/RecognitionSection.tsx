@@ -1,34 +1,34 @@
 const recognitions = [
   {
-    category: "Awards Winner",
+    category: "Fernando Pini",
     items: [
-      "Best Design Agency - Creative Awards 2023",
-      "Excellence in Branding - Design Excellence Awards",
-      "Innovation in Print Design - Graphic Arts Awards"
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025"
     ]
   },
   {
-    category: "Design Awards",
+    category: "Fernando Pini",
     items: [
-      "Gold Medal - International Design Competition",
-      "Silver Award - National Branding Contest",
-      "Bronze Recognition - Creative Print Awards"
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025"
     ]
   },
   {
-    category: "Recognition",
+    category: "Fernando Pini",
     items: [
-      "Featured in Design Magazine 2023",
-      "Top 50 Creative Agencies in Brazil",
-      "Client Choice Award - Service Excellence"
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025"
     ]
   },
   {
-    category: "Press",
+    category: "Fernando Pini",
     items: [
-      "Featured in Meio & Mensagem Magazine",
-      "Interview on Design Brasil Podcast",
-      "Case Study in PropMark Publication"
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025",
+      "Melhor Press Kit - 2025"
     ]
   }
 ];
