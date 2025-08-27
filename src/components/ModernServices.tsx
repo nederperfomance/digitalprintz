@@ -3,19 +3,19 @@ import { useState } from "react";
 const services = [
   {
     number: "01",
+    title: "Pré Impressão",
+    categories: ["Identidade Visual", "Editorial", "Packaging"],
+    description: "Criamos soluções visuais inovadoras que comunicam sua marca de forma única e impactante. Nossa equipe desenvolve projetos que conectem marcas com seus públicos através do design estratégico."
+  },
+  {
+    number: "02", 
     title: "Impressão Digital",
     categories: ["Offset Digital", "Grande Formato", "Materiais Especiais"],
     description: "Utilizamos tecnologia de ponta para criar impressões de alta qualidade em diversos materiais. Desde pequenas tiragens até grandes volumes, mantemos a excelência em cada projeto com equipamentos modernos e técnicas avançadas."
   },
   {
-    number: "02", 
-    title: "Design Gráfico",
-    categories: ["Identidade Visual", "Editorial", "Packaging"],
-    description: "Criamos soluções visuais inovadoras que comunicam sua marca de forma única e impactante. Nossa equipe desenvolve projetos que conectam marcas com seus públicos através do design estratégico."
-  },
-  {
     number: "03",
-    title: "Encadernação Premium", 
+    title: "Produção de Materiais", 
     categories: ["Costura", "Capa Dura", "Acabamentos Especiais"],
     description: "Acabamentos perfeitos que valorizam seus projetos editoriais e corporativos. Oferecemos desde encadernações tradicionais até acabamentos especiais com hot stamping e vernizes seletivos."
   },
