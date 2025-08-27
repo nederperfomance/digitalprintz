@@ -5,7 +5,8 @@ import StatsSection from "@/components/StatsSection";
 import ModernServices from "@/components/ModernServices";
 import VideoSection from "@/components/VideoSection";
 import InteractivePortfolio from "@/components/InteractivePortfolio";
-import ProcessSection from "@/components/ProcessSection";
+import QuoteSection from "@/components/QuoteSection";
+import RecognitionSection from "@/components/RecognitionSection";
 import ModernContact from "@/components/ModernContact";
 
 const Index = () => {
@@ -18,7 +19,8 @@ const Index = () => {
       <ModernServices />
       <VideoSection />
       <InteractivePortfolio />
-      <ProcessSection />
+      <QuoteSection />
+      <RecognitionSection />
       <ModernContact />
     </div>
   );
