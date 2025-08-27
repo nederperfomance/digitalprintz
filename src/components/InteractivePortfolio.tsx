@@ -1,9 +1,9 @@
 const portfolioProjects = [
   {
     id: 1,
-    title: "Identidade Visual Completa",
-    category: "BRANDING",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+    title: "Impressão do Book",
+    category: "RESERVA",
+    image: "/lovable-uploads/3c6ffee0-5eaa-4384-b4c8-b26c4d0c0bbf.png"
   },
   {
     id: 2,
