@@ -33,14 +33,14 @@ const AboutStatsSection = () => {
           <div className="animate-on-scroll">
             <div className="border-b border-border pb-8 mb-8">
               <h3 className="text-8xl lg:text-9xl font-light text-foreground mb-0 leading-none">
-                2<span className="text-primary">.</span>000m²
+                200<span className="text-primary">+</span>
               </h3>
             </div>
             <p className="text-lg font-light text-foreground leading-relaxed">
-              anos no mercado 
-              aprimorando produtos 
+              clientes atendidos com 
+              soluções personalizadas 
               de design e impressão 
-              para nossos clientes
+              digital de qualidade
             </p>
           </div>
 
@@ -48,13 +48,14 @@ const AboutStatsSection = () => {
           <div className="animate-on-scroll">
             <div className="border-b border-border pb-8 mb-8">
               <h3 className="text-8xl lg:text-9xl font-light text-foreground mb-0 leading-none">
-                200<span className="text-primary">+</span>
+                2<span className="text-primary">.</span>000m²
               </h3>
             </div>
             <p className="text-lg font-light text-foreground leading-relaxed">
-              nota média NPS* que 
-              recebemos de nossos 
-              clientes satisfeitos
+              de área para produção 
+              com equipamentos modernos 
+              e tecnologia de ponta 
+              em impressão digital
             </p>
           </div>
         </div>
