@@ -53,12 +53,6 @@ const ModernHero = () => {
         </div>
       </div>
 
-      {/* Innovation text in corner */}
-      <div className="absolute bottom-20 left-8 rotate-90 origin-left">
-        <span className="text-xs font-light text-muted-foreground tracking-widest">
-          INNOVATION + CREATIVITY
-        </span>
-      </div>
     </section>
   );
 };
