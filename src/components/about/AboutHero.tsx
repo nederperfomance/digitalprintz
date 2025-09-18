@@ -22,7 +22,7 @@ const AboutHero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold text-foreground mb-8 animate-fade-in">
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Relaxando o Mercado
+              Descontraindo o Mercado
             </span>
             <br />
             <span className="text-foreground">
