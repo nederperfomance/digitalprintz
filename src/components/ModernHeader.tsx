@@ -14,20 +14,17 @@ const ModernHeader = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-12">
-            <a href="#work" className="text-sm font-light text-foreground hover:text-primary transition-colors">
-              Work
+            <a href="#home" className="text-sm font-light text-foreground hover:text-primary transition-colors">
+              Home
             </a>
-            <a href="#agency" className="text-sm font-light text-foreground hover:text-primary transition-colors">
-              Agency  
+            <a href="#sobre" className="text-sm font-light text-foreground hover:text-primary transition-colors">
+              Sobre Nós  
             </a>
-            <a href="#services" className="text-sm font-light text-foreground hover:text-primary transition-colors">
-              Services
+            <a href="#produtos" className="text-sm font-light text-foreground hover:text-primary transition-colors">
+              Nossos Produtos
             </a>
-            <a href="#industries" className="text-sm font-light text-foreground hover:text-primary transition-colors">
-              Industries
-            </a>
-            <a href="#careers" className="text-sm font-light text-foreground hover:text-primary transition-colors">
-              Careers
+            <a href="#contato" className="text-sm font-light text-foreground hover:text-primary transition-colors">
+              Fale Conosco
             </a>
           </div>
 
