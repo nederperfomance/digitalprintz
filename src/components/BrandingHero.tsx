@@ -1,10 +1,12 @@
+import backgroundImg from '@/assets/background-section.png';
+
 const BrandingHero = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80')"
+          backgroundImage: `url('${backgroundImg}')`
         }}
       >
         <div className="absolute inset-0 bg-foreground/60"></div>
