@@ -22,7 +22,7 @@ const ModernContact = () => {
             <div className="space-y-8">
               <div>
                 <h3 className="text-sm font-medium text-background/60 tracking-widest mb-2">TELEFONE</h3>
-                <p className="text-xl font-light">(11) 99999-9999</p>
+                <p className="text-xl font-light">(11) 3658-5050</p>
               </div>
               
               <div>
@@ -31,8 +31,8 @@ const ModernContact = () => {
               </div>
               
               <div>
-                <h3 className="text-sm font-medium text-background/60 tracking-widest mb-2">LOCALIZAÇÃO</h3>
-                <p className="text-xl font-light">São Paulo, SP</p>
+                <h3 className="text-sm font-medium text-background/60 tracking-widest mb-2">ENDEREÇO</h3>
+                <p className="text-xl font-light">Av. Alberto J. Byington, 1460<br />Industrial Anhanguera<br />Osasco - SP, 06276-000</p>
               </div>
             </div>
           </div>
