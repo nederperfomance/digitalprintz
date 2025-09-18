@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logoDigitalPrintzWhite from "@/assets/logo-digital-printz-white.png";
+import logoDigitalPrintzFooter from "@/assets/logo-digital-printz-footer.png";
 
 const ModernContact = () => {
   return (
@@ -86,7 +86,7 @@ const ModernContact = () => {
         <div className="mt-32 pt-16 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <img 
-              src={logoDigitalPrintzWhite} 
+              src={logoDigitalPrintzFooter} 
               alt="Digital Printz" 
               className="h-16 w-auto mb-4 md:mb-0"
             />
