@@ -13,10 +13,10 @@ const BrandingHero = () => {
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="text-center text-background animate-on-scroll">
           <h2 className="text-8xl font-light mb-8 tracking-tight">
-            Branding & Design
+            Uma gráfica não convencional, de criação sem barreiras
           </h2>
           <p className="text-2xl font-light opacity-90 max-w-2xl mx-auto leading-relaxed">
-            Criamos identidades visuais marcantes que conectam marcas aos seus públicos
+            Criamos projetos marcantes que conectam marcas aos seus públicos.
           </p>
         </div>
       </div>
