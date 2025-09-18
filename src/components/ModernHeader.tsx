@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logoDigitalPrintz from "@/assets/logo-digital-printz.jpg";
+import logoDigitalPrintz from "@/assets/logo-digital-printz-new.png";
 
 const ModernHeader = () => {
   return (
