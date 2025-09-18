@@ -25,9 +25,9 @@ const ModernHero = () => {
   return (
     <section ref={heroRef} className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background pt-20">
       {/* Geometric shapes */}
-      <div className="geometric-diamond w-32 h-32 top-20 right-20 opacity-30"></div>
-      <div className="geometric-diamond w-24 h-24 top-40 right-1/3 opacity-20"></div>
-      <div className="geometric-diamond w-16 h-16 bottom-32 left-20 opacity-25"></div>
+      <div className="geometric-diamond w-32 h-32 top-20 right-20 opacity-30 animate-bounce"></div>
+      <div className="geometric-diamond w-24 h-24 top-40 right-1/3 opacity-20 animate-pulse"></div>
+      <div className="geometric-diamond w-16 h-16 bottom-32 left-20 opacity-25 animate-spin-slow"></div>
       
       {/* Diagonal lines */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
