@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoDigitalPrintz from "@/assets/logo-digital-printz.jpg";
 
 const ModernHeader = () => {
   return (
@@ -6,11 +7,11 @@ const ModernHeader = () => {
       <div className="max-w-7xl mx-auto px-8 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="text-2xl font-light tracking-tight">
-              <span className="text-foreground">DIGITAL</span>
-              <span className="text-primary">.</span>
-              <span className="text-foreground">PRINTZ</span>
-            </div>
+            <img 
+              src={logoDigitalPrintz} 
+              alt="Digital Printz" 
+              className="h-12 w-auto"
+            />
           </div>
 
           <div className="hidden md:flex items-center space-x-12">

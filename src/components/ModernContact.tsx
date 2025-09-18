@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoDigitalPrintzWhite from "@/assets/logo-digital-printz-white.png";
 
 const ModernContact = () => {
   return (
@@ -84,11 +85,11 @@ const ModernContact = () => {
         {/* Bottom section */}
         <div className="mt-32 pt-16 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-2xl font-light tracking-tight mb-4 md:mb-0">
-              <span className="text-background">DIGITAL</span>
-              <span className="text-primary">.</span>
-              <span className="text-background">PRINTZ</span>
-            </div>
+            <img 
+              src={logoDigitalPrintzWhite} 
+              alt="Digital Printz" 
+              className="h-16 w-auto mb-4 md:mb-0"
+            />
             
             <div className="text-sm font-light text-background/60">
               © 2024 Digital Printz. Todos os direitos reservados.
