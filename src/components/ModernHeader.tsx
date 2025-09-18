@@ -32,7 +32,7 @@ const ModernHeader = () => {
             variant="default" 
             className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-6"
           >
-            Contact
+            Contato
           </Button>
 
           <button className="md:hidden">
