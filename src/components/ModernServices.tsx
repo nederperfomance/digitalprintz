@@ -108,7 +108,7 @@ const ModernServices = () => {
               </p>
               
               <div className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors cursor-pointer group">
-                <span className="text-sm font-medium tracking-wide">Learn more</span>
+                <span className="text-sm font-medium tracking-wide">Saiba mais</span>
                 <svg 
                   className="w-4 h-4 group-hover:translate-x-1 transition-transform" 
                   fill="none" 
