@@ -11,33 +11,33 @@ const AboutServices = () => {
   const services = [
     {
       icon: Palette,
-      title: "Pre-Press",
-      description: "Image treatment, graphic consulting, mock-ups",
-      features: ["Professional image treatment", "Graphic design consulting", "3D mock-ups and prototypes"]
+      title: "Pré-Impressão",
+      description: "Tratamento de imagem, consultoria gráfica, mock-ups",
+      features: ["Tratamento profissional de imagens", "Consultoria em design gráfico", "Mock-ups 3D e protótipos"]
     },
     {
       icon: Printer,
-      title: "Digital & Offset Printing",
-      description: "Superior quality for projects of any complexity",
-      features: ["High-resolution digital printing", "Large-scale offset production", "Color accuracy guarantee"]
+      title: "Impressão Digital e Offset",
+      description: "Qualidade superior para projetos de qualquer complexidade",
+      features: ["Impressão digital de alta resolução", "Produção offset em larga escala", "Garantia de precisão de cores"]
     },
     {
       icon: Maximize,
-      title: "Large Format",
-      description: "Gigantographies, displays, signage",
-      features: ["Outdoor advertising solutions", "Indoor displays and banners", "Custom signage systems"]
+      title: "Grande Formato",
+      description: "Gigantografias, displays, sinalização",
+      features: ["Soluções de publicidade externa", "Displays e banners internos", "Sistemas de sinalização customizada"]
     },
     {
       icon: BookOpen,
-      title: "Materials",
-      description: "Books, packaging, press kits, business cards, and more",
-      features: ["Custom book production", "Premium packaging solutions", "Corporate materials"]
+      title: "Materiais",
+      description: "Livros, embalagens, press kits, cartões de visita e muito mais",
+      features: ["Produção customizada de livros", "Soluções premium de embalagem", "Materiais corporativos"]
     },
     {
       icon: Sparkles,
-      title: "Finishing",
-      description: "Premium substrates and specialized finishing techniques",
-      features: ["Luxury substrate options", "Special effects finishing", "Custom die-cutting"]
+      title: "Acabamento",
+      description: "Substratos premium e técnicas especializadas de acabamento",
+      features: ["Opções de substrato luxuoso", "Acabamento com efeitos especiais", "Corte personalizado"]
     }
   ];
 
@@ -47,15 +47,15 @@ const AboutServices = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Your Complete
+              Seu Parceiro Completo
             </span>
             <br />
-            Print Partner
+            em Impressão
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            From concept to completion, we offer comprehensive print solutions 
-            that cover every aspect of your project needs.
+            Do conceito à conclusão, oferecemos soluções completas de impressão 
+            que cobrem todos os aspectos das necessidades do seu projeto.
           </p>
         </div>
 
@@ -98,20 +98,20 @@ const AboutServices = () => {
         <div className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl p-8 md:p-12">
           <div className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Our Seamless Process
+              Nosso Processo Integrado
             </h3>
             <p className="text-muted-foreground">
-              From initial consultation to final delivery, we ensure every step exceeds expectations
+              Da consulta inicial à entrega final, garantimos que cada etapa supere as expectativas
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {[
-              { step: "01", title: "Consultation", desc: "Understanding your vision" },
-              { step: "02", title: "Design", desc: "Creating the perfect solution" },
-              { step: "03", title: "Production", desc: "Precision manufacturing" },
-              { step: "04", title: "Quality Control", desc: "Ensuring excellence" },
-              { step: "05", title: "Delivery", desc: "On-time completion" }
+              { step: "01", title: "Consultoria", desc: "Entendendo sua visão" },
+              { step: "02", title: "Design", desc: "Criando a solução perfeita" },
+              { step: "03", title: "Produção", desc: "Fabricação de precisão" },
+              { step: "04", title: "Controle de Qualidade", desc: "Garantindo excelência" },
+              { step: "05", title: "Entrega", desc: "Conclusão no prazo" }
             ].map((item, index) => (
               <div key={item.step} className="text-center relative">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 text-primary font-bold text-lg">

@@ -15,13 +15,13 @@ const AboutCTA = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in">
-            Ready to Transform Your Brand 
+            Pronto para Transformar sua Marca 
             <br />
-            with Print Excellence?
+            com Excelência em Impressão?
           </h2>
           
           <p className="text-xl md:text-2xl mb-12 opacity-90 animate-fade-in delay-200">
-            Let's create something extraordinary together.
+            Vamos criar algo extraordinário juntos.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 animate-fade-in delay-400">
@@ -30,7 +30,7 @@ const AboutCTA = () => {
               variant="secondary"
               className="group text-lg px-8 py-6 bg-white text-primary hover:bg-white/90"
             >
-              Get in Touch
+              Entre em Contato
               <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
@@ -39,7 +39,7 @@ const AboutCTA = () => {
               variant="outline"
               className="group text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary"
             >
-              View Our Portfolio
+              Ver Nosso Portfólio
               <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
@@ -52,7 +52,7 @@ const AboutCTA = () => {
             >
               <Phone className="h-6 w-6 text-white group-hover:scale-110 transition-transform" />
               <div className="text-left">
-                <div className="text-sm opacity-80">Phone</div>
+                <div className="text-sm opacity-80">Telefone</div>
                 <div className="font-semibold">+55 11 3658-5050</div>
               </div>
             </a>
@@ -78,7 +78,7 @@ const AboutCTA = () => {
             >
               <Globe className="h-6 w-6 text-white group-hover:scale-110 transition-transform" />
               <div className="text-left">
-                <div className="text-sm opacity-80">Website</div>
+                <div className="text-sm opacity-80">Site</div>
                 <div className="font-semibold">digitalprintz.com.br</div>
               </div>
             </a>

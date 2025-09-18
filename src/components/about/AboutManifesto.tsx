@@ -5,20 +5,20 @@ const AboutManifesto = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              We are{" "}
+              Somos a{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Digital Printz
               </span>
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              A print shop of excellence and unconventional approach.
+              Uma gráfica de excelência e abordagem não convencional.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              We want to offer innovation, technology, and results without limitations 
-              to our clients. Our purpose is not just to execute your demands, but to 
-              listen, analyze, and deliver what you expect with outstanding quality.
+              Queremos oferecer inovação, tecnologia e resultados sem limitações 
+              aos nossos clientes. Nosso propósito não é apenas executar suas demandas, mas 
+              ouvir, analisar e entregar o que você espera com qualidade excepcional.
             </p>
           </div>
           

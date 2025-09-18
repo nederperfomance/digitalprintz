@@ -22,25 +22,25 @@ const AboutHero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold text-foreground mb-8 animate-fade-in">
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              Relaxing the Market
+              Relaxando o Mercado
             </span>
             <br />
             <span className="text-foreground">
-              with Printed Creativity
+              com Criatividade Impressa
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in delay-200">
-            Your favorite digital print shop. At Digital Printz, we combine innovation, 
-            technology, and flawless results to transform brands and bring stories to life 
-            through exceptional print experiences.
+            Sua gráfica digital favorita. Na Digital Printz, combinamos inovação, 
+            tecnologia e resultados impecáveis para transformar marcas e dar vida a histórias 
+            através de experiências excepcionais de impressão.
           </p>
           
           <Button 
             size="lg" 
             className="group text-lg px-8 py-6 bg-primary hover:bg-primary/90 animate-fade-in delay-400"
           >
-            Start Your Project
+            Comece Seu Projeto
             <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>

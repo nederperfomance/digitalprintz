@@ -23,14 +23,14 @@ const AboutClients = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Partners in Success
+              Parceiros no Sucesso
             </span>
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            From fashion to sports, from beverages to beauty, we partner with Brazil's most 
-            recognized brands who trust us to bring their vision to life – including leading 
-            companies across diverse industries.
+            Da moda ao esporte, de bebidas à beleza, somos parceiros das marcas mais 
+            reconhecidas do Brasil que confiam em nós para dar vida à sua visão – incluindo 
+            empresas líderes em diversos setores.
           </p>
         </div>
 
@@ -61,16 +61,16 @@ const AboutClients = () => {
         <div className="bg-card/30 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-border/20">
           <div className="text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-              Success Stories That Inspire
+              Histórias de Sucesso que Inspiram
             </h3>
             
             <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Explore our case studies to see how press kits, packaging, books, and custom 
-              print experiences create measurable impact for brands across industries.
+              Explore nossos estudos de caso para ver como press kits, embalagens, livros e 
+              experiências de impressão customizadas criam impacto mensurável para marcas de diversos setores.
             </p>
             
             <Button variant="outline" size="lg" className="group">
-              View Case Studies
+              Ver Estudos de Caso
               <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
           </div>
@@ -80,15 +80,15 @@ const AboutClients = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500+</div>
-            <div className="text-muted-foreground">Successful Projects</div>
+            <div className="text-muted-foreground">Projetos Bem-sucedidos</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-primary mb-2">98%</div>
-            <div className="text-muted-foreground">Client Satisfaction</div>
+            <div className="text-muted-foreground">Satisfação do Cliente</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-primary mb-2">15+</div>
-            <div className="text-muted-foreground">Industry Sectors</div>
+            <div className="text-muted-foreground">Setores da Indústria</div>
           </div>
         </div>
       </div>
