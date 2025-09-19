@@ -5,6 +5,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card } from "@/components/ui/card";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import ModernHeader from "@/components/ModernHeader";
+import logoDigitalPrintzFooter from "@/assets/logo-digital-printz-footer.png";
 
 const FaleConosco = () => {
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
@@ -38,6 +40,7 @@ const FaleConosco = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <ModernHeader />
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-8 lg:px-16">
         <div className="max-w-4xl mx-auto text-center">
@@ -192,6 +195,23 @@ const FaleConosco = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="px-8 lg:px-16 py-16 bg-foreground text-background">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <img 
+              src={logoDigitalPrintzFooter} 
+              alt="Digital Printz" 
+              className="h-16 w-auto mb-4 md:mb-0"
+            />
+            
+            <div className="text-sm font-light text-background/60">
+              © 2024 Digital Printz. Todos os direitos reservados.
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
