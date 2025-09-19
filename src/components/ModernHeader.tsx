@@ -25,16 +25,17 @@ const ModernHeader = () => {
             <a href="#produtos" className="text-sm font-light text-foreground hover:text-primary transition-colors">
               Nossos Produtos
             </a>
-            <a href="#contato" className="text-sm font-light text-foreground hover:text-primary transition-colors">
+            <Link to="/fale-conosco" className="text-sm font-light text-foreground hover:text-primary transition-colors">
               Fale Conosco
-            </a>
+            </Link>
           </div>
 
           <Button 
+            asChild
             variant="default" 
             className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90 font-medium px-6"
           >
-            Contato
+            <Link to="/fale-conosco">Contato</Link>
           </Button>
 
           <button className="md:hidden">
