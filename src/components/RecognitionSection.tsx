@@ -22,14 +22,6 @@ const recognitions = [
       "Melhor Press Kit - 2025",
       "Melhor Press Kit - 2025"
     ]
-  },
-  {
-    category: "Fernando Pini",
-    items: [
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025"
-    ]
   }
 ];
 
@@ -64,7 +56,7 @@ const RecognitionSection = () => {
         </div>
 
         {/* Recognition Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {recognitions.map((recognition, categoryIndex) => (
             <div key={categoryIndex} className="animate-on-scroll">
               <div className="space-y-6">
