@@ -6,15 +6,18 @@ const VideoSection = () => {
         <div className="relative bg-muted flex items-center justify-center">
           <div className="w-full h-full flex items-center justify-center">
             <div className="relative w-full max-w-lg mx-auto px-8">
-              <div className="aspect-video bg-muted-foreground/10 rounded-lg flex items-center justify-center border border-border/20">
-                <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                  <p className="text-muted-foreground text-sm">Video Placeholder</p>
-                </div>
+              <div className="aspect-video rounded-lg overflow-hidden border border-border/20">
+                <video 
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster=""
+                >
+                  <source src="https://servergg-droppy.kztggo.easypanel.host/$/eCvMd" type="video/mp4" />
+                  <p className="text-muted-foreground text-sm text-center p-4">
+                    Seu navegador não suporta o elemento de vídeo.
+                  </p>
+                </video>
               </div>
             </div>
           </div>
