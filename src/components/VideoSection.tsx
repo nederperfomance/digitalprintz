@@ -1,10 +1,16 @@
+import backgroundImg from '@/assets/video-background.jpg';
+
 const VideoSection = () => {
   return (
     <section className="relative w-full">
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
         {/* Video Side */}
-        <div className="relative bg-muted flex items-center justify-center p-4">
-          <div className="w-full h-full flex items-center justify-center">
+        <div 
+          className="relative flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('${backgroundImg}')` }}
+        >
+          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="relative z-10 w-full h-full flex items-center justify-center">
             <div className="relative w-full max-w-4xl mx-auto">
               <div className="aspect-video rounded-lg overflow-hidden border border-border/20">
                 <video 
