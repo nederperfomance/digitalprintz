@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 9%;
 
-    --primary: 94 100% 50%;
+    --primary: 108 100% 54%;
     --primary-foreground: 0 0% 9%;
 
     --secondary: 0 0% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 0 0% 94%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 94 100% 50%;
+    --accent: 108 100% 54%;
     --accent-foreground: 0 0% 9%;
 
     --destructive: 0 84% 60%;
@@ -34,29 +34,29 @@ All colors MUST be HSL.
 
     --border: 0 0% 89%;
     --input: 0 0% 89%;
-    --ring: 94 100% 50%;
+    --ring: 108 100% 54%;
 
     --radius: 0rem;
 
     /* Footer colors */
-    --primary-dark: 94 60% 35%;
+    --primary-dark: 108 100% 35%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(94 100% 50%), hsl(90 100% 45%));
+    --gradient-primary: linear-gradient(135deg, hsl(108 100% 54%), hsl(108 100% 48%));
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 99%), hsl(0 0% 98%));
 
     /* Shadows */
-    --shadow-elegant: 0 25px 50px -12px hsl(94 100% 50% / 0.15);
+    --shadow-elegant: 0 25px 50px -12px hsl(108 100% 54% / 0.15);
     --shadow-soft: 0 10px 15px -3px hsl(0 0% 0% / 0.05);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 9%;
-    --sidebar-primary: 94 100% 50%;
+    --sidebar-primary: 108 100% 54%;
     --sidebar-primary-foreground: 0 0% 9%;
     --sidebar-accent: 0 0% 96%;
     --sidebar-accent-foreground: 0 0% 9%;
     --sidebar-border: 0 0% 89%;
-    --sidebar-ring: 94 100% 50%;
+    --sidebar-ring: 108 100% 54%;
   }
 
   .dark {
@@ -69,7 +69,7 @@ All colors MUST be HSL.
     --popover: 0 0% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 94 100% 50%;
+    --primary: 108 100% 54%;
     --primary-foreground: 0 0% 9%;
 
     --secondary: 0 0% 15%;
@@ -78,7 +78,7 @@ All colors MUST be HSL.
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 94 100% 50%;
+    --accent: 108 100% 54%;
     --accent-foreground: 0 0% 9%;
 
     --destructive: 0 75% 55%;
@@ -86,19 +86,19 @@ All colors MUST be HSL.
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 94 100% 50%;
+    --ring: 108 100% 54%;
 
     /* Footer colors */
-    --primary-dark: 94 60% 35%;
+    --primary-dark: 108 100% 35%;
 
     --sidebar-background: 0 0% 9%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 94 100% 50%;
+    --sidebar-primary: 108 100% 54%;
     --sidebar-primary-foreground: 0 0% 9%;
     --sidebar-accent: 0 0% 15%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 0 0% 15%;
-    --sidebar-ring: 94 100% 50%;
+    --sidebar-ring: 108 100% 54%;
   }
 }
 

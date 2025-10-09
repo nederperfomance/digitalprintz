@@ -10,7 +10,7 @@ const ModernContact = () => {
             <h2 className="text-6xl font-light mb-8 leading-tight">
               Vamos criar algo
               <br />
-              <span style={{ color: 'hsl(94 60% 35%)' }}>extraordinário</span>
+              <span style={{ color: 'hsl(108 100% 35%)' }}>extraordinário</span>
               <span className="text-background">?</span>
             </h2>
             
@@ -74,7 +74,7 @@ const ModernContact = () => {
               
               <Button 
                 type="submit"
-                style={{ backgroundColor: 'hsl(94 60% 35%)', color: 'hsl(0 0% 98%)' }}
+                style={{ backgroundColor: 'hsl(108 100% 35%)', color: 'hsl(0 0% 98%)' }}
                 className="hover:opacity-90 px-8 py-3 font-medium transition-opacity"
               >
                 Enviar mensagem
