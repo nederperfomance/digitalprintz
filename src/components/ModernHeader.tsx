@@ -11,7 +11,7 @@ const ModernHeader = () => {
             <img 
               src={logoDigitalPrintz} 
               alt="Digital PrintZ" 
-              className="h-12 w-auto"
+              className="h-36 w-auto"
             />
           </div>
 
