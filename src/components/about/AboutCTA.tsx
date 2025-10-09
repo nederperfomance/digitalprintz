@@ -3,7 +3,7 @@ import { ArrowRight, Phone, Instagram, Globe } from "lucide-react";
 
 const AboutCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-primary via-primary to-accent text-white relative overflow-hidden">
+    <section className="py-20 text-white relative overflow-hidden" style={{ background: 'linear-gradient(to right, hsl(94 50% 30%), hsl(94 50% 32%), hsl(94 55% 32%))' }}>
       {/* Background patterns */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-white rounded-full blur-3xl"></div>
@@ -28,7 +28,8 @@ const AboutCTA = () => {
             <Button 
               size="lg" 
               variant="secondary"
-              className="group text-lg px-8 py-6 bg-white text-primary hover:bg-white/90"
+              className="group text-lg px-8 py-6 bg-white hover:bg-white/90"
+              style={{ color: 'hsl(94 50% 30%)' }}
             >
               Entre em Contato
               <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -37,7 +38,12 @@ const AboutCTA = () => {
             <Button 
               size="lg" 
               variant="outline"
-              className="group text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-primary"
+              className="group text-lg px-8 py-6 border-white text-white hover:bg-white"
+              style={{ 
+                '--hover-text-color': 'hsl(94 50% 30%)'
+              } as React.CSSProperties}
+              onMouseEnter={(e) => e.currentTarget.style.color = 'hsl(94 50% 30%)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'white'}
             >
               Ver Nosso Portfólio
               <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
