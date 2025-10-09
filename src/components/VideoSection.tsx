@@ -4,33 +4,11 @@ const VideoSection = () => {
   return (
     <section className="relative w-full">
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
-        {/* Video Side */}
         <div 
           className="relative flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url('${backgroundImg}')` }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
-          <div className="relative z-10 w-full h-full flex items-center justify-center">
-            <div className="relative w-full max-w-4xl mx-auto">
-              <div className="aspect-video rounded-lg overflow-hidden border border-border/20">
-                <video 
-                  className="w-full h-full object-cover"
-                  controls
-                  preload="metadata"
-                  poster=""
-                  onLoadedMetadata={(e) => {
-                    const video = e.target as HTMLVideoElement;
-                    video.currentTime = 1;
-                  }}
-                >
-                  <source src="https://servergg-droppy.kztggo.easypanel.host/$/eCvMd#t=1" type="video/mp4" />
-                  <p className="text-muted-foreground text-sm text-center p-4">
-                    Seu navegador não suporta o elemento de vídeo.
-                  </p>
-                </video>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Content Side */}

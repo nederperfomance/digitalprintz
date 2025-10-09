@@ -3,6 +3,7 @@ import ModernHero from "@/components/ModernHero";
 import BrandingHero from "@/components/BrandingHero";
 import AboutStatsSection from "@/components/AboutStatsSection";
 import ModernServices from "@/components/ModernServices";
+import VideoSection from "@/components/VideoSection";
 import InteractivePortfolio from "@/components/InteractivePortfolio";
 import QuoteSection from "@/components/QuoteSection";
 import RecognitionSection from "@/components/RecognitionSection";
@@ -16,6 +17,7 @@ const Index = () => {
       <BrandingHero />
       <AboutStatsSection />
       <ModernServices />
+      <VideoSection />
       <InteractivePortfolio />
       <QuoteSection />
       <RecognitionSection />
