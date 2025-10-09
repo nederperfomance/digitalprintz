@@ -26,6 +26,18 @@ const ModernContact = () => {
               </div>
               
               <div>
+                <h3 className="text-sm font-medium text-background/60 tracking-widest mb-2">WHATSAPP</h3>
+                <a 
+                  href="https://wa.me/5511912380954" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-xl font-light hover:text-background/80 transition-colors"
+                >
+                  (11) 91238-0954
+                </a>
+              </div>
+              
+              <div>
                 <h3 className="text-sm font-medium text-background/60 tracking-widest mb-2">EMAIL</h3>
                 <p className="text-xl font-light">contato@digitalprintz.com.br</p>
               </div>

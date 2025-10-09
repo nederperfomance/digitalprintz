@@ -138,11 +138,24 @@ const FaleConosco = () => {
       {/* Contact Info */}
       <section className="px-8 lg:px-16 py-20 bg-muted/30">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="p-8 text-center border-0 shadow-sm bg-background">
               <Phone className="h-8 w-8 text-primary mx-auto mb-4" />
               <h3 className="font-medium text-foreground mb-2">Telefone</h3>
               <p className="text-muted-foreground">(11) 3658-5050</p>
+            </Card>
+
+            <Card className="p-8 text-center border-0 shadow-sm bg-background">
+              <Phone className="h-8 w-8 text-primary mx-auto mb-4" />
+              <h3 className="font-medium text-foreground mb-2">WhatsApp</h3>
+              <a 
+                href="https://wa.me/5511912380954" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                (11) 91238-0954
+              </a>
             </Card>
 
             <Card className="p-8 text-center border-0 shadow-sm bg-background">
@@ -184,13 +197,17 @@ const FaleConosco = () => {
             <Button 
               variant="outline" 
               className="border-background text-background hover:bg-background hover:text-foreground px-8 py-3"
+              asChild
             >
-              Ligar agora: (11) 3658-5050
+              <a href="tel:+551136585050">Ligar agora: (11) 3658-5050</a>
             </Button>
             <Button 
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
+              asChild
             >
-              Enviar WhatsApp
+              <a href="https://wa.me/5511912380954" target="_blank" rel="noopener noreferrer">
+                Enviar WhatsApp
+              </a>
             </Button>
           </div>
         </div>
