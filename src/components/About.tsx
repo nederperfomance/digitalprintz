@@ -12,8 +12,8 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6">
-              Na Digital Printz, acreditamos que cada projeto é único e merece 
-              uma abordagem personalizada. Somos uma gráfica que quebra os padrões 
+              Na Digital PrintZ, acreditamos que cada projeto é único e merece 
+              uma abordagem personalizada. Somos uma gráfica que quebra os padrões
               convencionais, oferecendo soluções criativas e inovadoras.
             </p>
             

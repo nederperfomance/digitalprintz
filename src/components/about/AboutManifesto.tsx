@@ -7,7 +7,7 @@ const AboutManifesto = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Somos a{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Digital Printz
+                Digital PrintZ
               </span>
             </h2>
             

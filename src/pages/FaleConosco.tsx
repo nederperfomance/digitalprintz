@@ -202,12 +202,12 @@ const FaleConosco = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <img 
               src={logoDigitalPrintzFooter} 
-              alt="Digital Printz" 
+              alt="Digital PrintZ" 
               className="h-16 w-auto mb-4 md:mb-0"
             />
             
             <div className="text-sm font-light text-background/60">
-              © 2024 Digital Printz. Todos os direitos reservados.
+              © 2024 Digital PrintZ. Todos os direitos reservados.
             </div>
           </div>
         </div>

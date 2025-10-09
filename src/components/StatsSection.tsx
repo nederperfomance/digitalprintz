@@ -19,7 +19,7 @@ const StatsSection = () => {
       <div className="w-full px-8 lg:px-16">
         <div className="mb-16 animate-on-scroll max-w-3xl">
           <p className="text-lg font-light text-foreground leading-relaxed">
-            A Digital Printz® é uma gráfica especializada em soluções criativas, 
+            A Digital PrintZ® é uma gráfica especializada em soluções criativas, 
             fundada em 2016, com foco em impressão digital, design gráfico e 
             acabamentos premium. Com uma década de expertise combinada, 
             entregamos soluções inovadoras e impactantes para diversos segmentos.

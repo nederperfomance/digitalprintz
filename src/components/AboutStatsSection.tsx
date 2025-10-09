@@ -5,7 +5,7 @@ const AboutStatsSection = () => {
         {/* About Text */}
         <div className="max-w-4xl mb-24 animate-on-scroll">
           <p className="text-2xl lg:text-3xl font-light text-foreground leading-relaxed">
-            Somos a Digital Printz, uma gráfica não convencional. Queremos oferecer inovação e tecnologia, sem impeditivos para nosso cliente. A Digital Printz veio para quebrar barreiras. Queremos descontrair o mercado com criatividade impressa no papel. Nossa marca não é apenas de tecnologia, é feita de pessoas que ouvem, analisam e discutem seus projetos. Com isso, indicamos a solução ideal, customizada de acordo com as necessidades da sua empresa. E tudo feito com alta qualidade.{" "}
+            Somos a Digital PrintZ, uma gráfica não convencional. Queremos oferecer inovação e tecnologia, sem impeditivos para nosso cliente. A Digital PrintZ veio para quebrar barreiras. Queremos descontrair o mercado com criatividade impressa no papel. Nossa marca não é apenas de tecnologia, é feita de pessoas que ouvem, analisam e discutem seus projetos. Com isso, indicamos a solução ideal, customizada de acordo com as necessidades da sua empresa. E tudo feito com alta qualidade.{" "}
             <span className="text-primary cursor-pointer hover:text-primary/80 transition-colors">
               Veja nosso trabalho ›
             </span>

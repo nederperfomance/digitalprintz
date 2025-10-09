@@ -31,8 +31,8 @@ const AboutHero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto animate-fade-in delay-200">
-            Sua gráfica digital favorita. Na Digital Printz, combinamos inovação, 
-            tecnologia e resultados impecáveis para transformar marcas e dar vida a histórias 
+            Sua gráfica digital favorita. Na Digital PrintZ, combinamos inovação, 
+            tecnologia e resultados impecáveis para transformar marcas e dar vida a histórias
             através de experiências excepcionais de impressão.
           </p>
           

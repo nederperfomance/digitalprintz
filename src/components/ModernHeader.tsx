@@ -10,7 +10,7 @@ const ModernHeader = () => {
           <div className="flex items-center space-x-2">
             <img 
               src={logoDigitalPrintz} 
-              alt="Digital Printz" 
+              alt="Digital PrintZ" 
               className="h-40 w-auto"
             />
           </div>

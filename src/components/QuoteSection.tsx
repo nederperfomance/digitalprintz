@@ -20,7 +20,7 @@ const QuoteSection = () => {
             </h2>
             
             <p className="text-xl lg:text-2xl font-light text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Na Digital Printz, transformamos ideias em realidade através do design 
+              Na Digital PrintZ, transformamos ideias em realidade através do design 
               e da impressão de alta qualidade, criando experiências visuais que 
               conectam marcas aos seus públicos.
             </p>
