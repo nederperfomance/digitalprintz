@@ -10,7 +10,7 @@ const ModernContact = () => {
             <h2 className="text-6xl font-light mb-8 leading-tight">
               Vamos criar algo
               <br />
-              <span className="text-primary">extraordinário</span>
+              <span style={{ color: 'hsl(94 60% 35%)' }}>extraordinário</span>
               <span className="text-background">?</span>
             </h2>
             
@@ -44,14 +44,14 @@ const ModernContact = () => {
                   <input 
                     type="text" 
                     placeholder="Nome"
-                    className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-primary focus:outline-none transition-colors"
+                    className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-background/60 focus:outline-none transition-colors"
                   />
                 </div>
                 <div>
                   <input 
                     type="email" 
                     placeholder="Email"
-                    className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-primary focus:outline-none transition-colors"
+                    className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-background/60 focus:outline-none transition-colors"
                   />
                 </div>
               </div>
@@ -60,7 +60,7 @@ const ModernContact = () => {
                 <input 
                   type="text" 
                   placeholder="Assunto"
-                  className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-primary focus:outline-none transition-colors"
+                  className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-background/60 focus:outline-none transition-colors"
                 />
               </div>
               
@@ -68,13 +68,14 @@ const ModernContact = () => {
                 <textarea 
                   rows={4}
                   placeholder="Conte-nos sobre seu projeto..."
-                  className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-primary focus:outline-none transition-colors resize-none"
+                  className="w-full bg-transparent border-0 border-b border-background/30 pb-4 text-background placeholder-background/50 focus:border-background/60 focus:outline-none transition-colors resize-none"
                 />
               </div>
               
               <Button 
                 type="submit"
-                className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3 font-medium"
+                style={{ backgroundColor: 'hsl(94 60% 35%)', color: 'hsl(0 0% 98%)' }}
+                className="hover:opacity-90 px-8 py-3 font-medium transition-opacity"
               >
                 Enviar mensagem
               </Button>
