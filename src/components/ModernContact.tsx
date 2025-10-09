@@ -93,7 +93,7 @@ const ModernContact = () => {
             />
             
             <div className="text-sm font-light text-background/60">
-              © 2024 Digital PrintZ. Todos os direitos reservados.
+              © 2025 Digital PrintZ. Todos os direitos reservados.
             </div>
           </div>
         </div>
