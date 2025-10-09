@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import logoDigitalPrintz from "@/assets/logo-digital-printz-new.png";
+import logoDigitalPrintz from "@/assets/logo-digital-printz-header.png";
 
 const ModernHeader = () => {
   return (
@@ -11,7 +11,7 @@ const ModernHeader = () => {
             <img 
               src={logoDigitalPrintz} 
               alt="Digital PrintZ" 
-              className="h-40 w-auto"
+              className="h-12 w-auto"
             />
           </div>
 
