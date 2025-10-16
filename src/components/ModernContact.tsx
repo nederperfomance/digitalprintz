@@ -39,7 +39,7 @@ const ModernContact = () => {
               
               <div>
                 <h3 className="text-sm font-medium text-background/60 tracking-widest mb-2">EMAIL</h3>
-                <p className="text-xl font-light">contato@digitalprintz.com.br</p>
+                <p className="text-xl font-light">comercial@digitalprintz.com.br</p>
               </div>
               
               <div>

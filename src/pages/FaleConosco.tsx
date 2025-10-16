@@ -161,7 +161,7 @@ const FaleConosco = () => {
             <Card className="p-8 text-center border-0 shadow-sm bg-background">
               <Mail className="h-8 w-8 text-primary mx-auto mb-4" />
               <h3 className="font-medium text-foreground mb-2">E-mail</h3>
-              <p className="text-muted-foreground">contato@digitalprintz.com.br</p>
+              <p className="text-muted-foreground">comercial@digitalprintz.com.br</p>
             </Card>
 
             <Card className="p-8 text-center border-0 shadow-sm bg-background">
