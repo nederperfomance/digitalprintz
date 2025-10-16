@@ -1,33 +1,28 @@
 const recognitions = [
   {
-    category: "Fernando Pini",
+    category: "Fernando Pini (ABIGRAF Nacional)",
     items: [
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025"
+      "🏆 Vencedor Nacional – Melhor Livro Institucional Book Torre – Cyrela / AMAP (2023)",
+      "🏆 Vencedor Nacional – Relatório Socioambiental Granado Pharmácias (2023)",
+      "🏆 Vencedor Nacional – Kit Promocional Press Kit QSF – Venko (2024)",
+      "🥈 Finalista Nacional – Kit John Deere (2022)",
+      "🥈 Finalista Nacional – Cartão de Visita Digital Printz (2022)"
     ]
   },
   {
-    category: "Fernando Pini",
+    category: "Prêmio Paulista Luiz Metzler (ABIGRAF-SP)",
     items: [
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025"
-    ]
-  },
-  {
-    category: "Fernando Pini",
-    items: [
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025",
-      "Melhor Press Kit - 2025"
+      "🏆 Vencedor Paulista – Book Youniverse Studio (2025)",
+      "🏆 Vencedor Paulista – Display Duratex (2025)",
+      "🏆 Vencedor Paulista – Caixa Mostruário Rodenstock (2024)",
+      "🏆 Vencedor Paulista – Press Kit QSF (2024)"
     ]
   }
 ];
 
 const RecognitionSection = () => {
   return (
-    <section className="py-32 bg-secondary/20">
+    <section className="py-32 bg-card">
       <div className="w-full px-8 lg:px-16">
         {/* Header */}
         <div className="mb-24 animate-on-scroll">
@@ -49,34 +44,34 @@ const RecognitionSection = () => {
             <div>
               <p className="text-lg font-light text-muted-foreground leading-relaxed">
                 Reconhecidos pela qualidade e inovação em design, nossa trajetória 
-                é marcada por premiações e destaque no mercado criativo brasileiro.
+                é marcada por prêmios e destaque no mercado gráfico brasileiro.
               </p>
             </div>
           </div>
         </div>
 
         {/* Recognition Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl mx-auto">
           {recognitions.map((recognition, categoryIndex) => (
             <div key={categoryIndex} className="animate-on-scroll">
-              <div className="space-y-6">
+              <div className="space-y-8">
                 {/* Category Header */}
-                <div className="pb-4 border-b border-border/30">
-                  <h3 className="text-xl font-light text-foreground">
+                <div className="pb-6 border-b border-border">
+                  <h3 className="text-2xl font-semibold text-foreground">
                     {recognition.category}
                   </h3>
                 </div>
 
                 {/* Recognition Items */}
-                <div className="space-y-4">
+                <div className="space-y-6">
                   {recognition.items.map((item, itemIndex) => (
                     <div 
                       key={itemIndex}
-                      className="group cursor-pointer"
+                      className="group"
                     >
-                      <div className="flex items-start space-x-3">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-sm font-light text-muted-foreground leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                      <div className="flex items-start space-x-4">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                        <p className="text-base font-normal text-foreground leading-relaxed">
                           {item}
                         </p>
                       </div>
@@ -88,25 +83,11 @@ const RecognitionSection = () => {
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <div className="mt-24 text-center animate-on-scroll">
-          <div className="space-y-8">
-            <h3 className="text-3xl font-light text-foreground">
-              Pronto para fazer parte desta história?
-            </h3>
-            
-            <div className="flex items-center justify-center space-x-2 text-primary hover:text-primary/80 transition-colors cursor-pointer group">
-              <span className="text-sm font-medium tracking-wide">INICIAR PROJETO</span>
-              <svg 
-                className="w-4 h-4 group-hover:translate-x-1 transition-transform" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
-              </svg>
-            </div>
-          </div>
+        {/* Bottom Text */}
+        <div className="mt-20 text-center animate-on-scroll max-w-4xl mx-auto">
+          <p className="text-lg font-light text-muted-foreground leading-relaxed">
+            Cada conquista reforça nosso compromisso com a excelência gráfica e a criatividade que movem a Digital Printz.
+          </p>
         </div>
       </div>
     </section>
