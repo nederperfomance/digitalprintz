@@ -2,20 +2,20 @@ const recognitions = [
   {
     category: "Fernando Pini (ABIGRAF Nacional)",
     items: [
-      "🏆 Vencedor Nacional – Melhor Livro Institucional Book Torre – Cyrela / AMAP (2023)",
-      "🏆 Vencedor Nacional – Relatório Socioambiental Granado Pharmácias (2023)",
-      "🏆 Vencedor Nacional – Kit Promocional Press Kit QSF – Venko (2024)",
-      "🥈 Finalista Nacional – Kit John Deere (2022)",
-      "🥈 Finalista Nacional – Cartão de Visita Digital Printz (2022)"
+      "Vencedor Nacional – Melhor Livro Institucional Book Torre – Cyrela / AMAP (2023)",
+      "Vencedor Nacional – Relatório Socioambiental Granado Pharmácias (2023)",
+      "Vencedor Nacional – Kit Promocional Press Kit QSF – Venko (2024)",
+      "Finalista Nacional – Kit John Deere (2022)",
+      "Finalista Nacional – Cartão de Visita Digital Printz (2022)"
     ]
   },
   {
     category: "Prêmio Paulista Luiz Metzler (ABIGRAF-SP)",
     items: [
-      "🏆 Vencedor Paulista – Book Youniverse Studio (2025)",
-      "🏆 Vencedor Paulista – Display Duratex (2025)",
-      "🏆 Vencedor Paulista – Caixa Mostruário Rodenstock (2024)",
-      "🏆 Vencedor Paulista – Press Kit QSF (2024)"
+      "Vencedor Paulista – Book Youniverse Studio (2025)",
+      "Vencedor Paulista – Display Duratex (2025)",
+      "Vencedor Paulista – Caixa Mostruário Rodenstock (2024)",
+      "Vencedor Paulista – Press Kit QSF (2024)"
     ]
   }
 ];
