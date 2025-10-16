@@ -216,15 +216,19 @@ const FaleConosco = () => {
       {/* Footer */}
       <footer className="px-8 lg:px-16 py-16 bg-foreground text-background">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <img 
               src={logoDigitalPrintzFooter} 
               alt="Digital PrintZ" 
-              className="h-16 w-auto mb-4 md:mb-0"
+              className="h-16 w-auto"
             />
             
-            <div className="text-sm font-light text-background/60">
-              © 2025 Digital PrintZ. Todos os direitos reservados.
+            <div className="flex flex-col md:flex-row items-center gap-4 text-sm font-light text-background/60">
+              <a href="/compliance" className="hover:text-background transition-colors">
+                Compliance
+              </a>
+              <span className="hidden md:inline">|</span>
+              <span>© 2025 Digital PrintZ. Todos os direitos reservados.</span>
             </div>
           </div>
         </div>
