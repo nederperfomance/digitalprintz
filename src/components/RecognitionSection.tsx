@@ -5,8 +5,8 @@ const recognitions = [
       "Vencedor Nacional – Melhor Livro Institucional Book Torre – Cyrela / AMAP (2023)",
       "Vencedor Nacional – Relatório Socioambiental Granado Pharmácias (2023)",
       "Vencedor Nacional – Kit Promocional Press Kit QSF – Venko (2024)",
-      "Finalista Nacional – Kit John Deere (2022)",
-      "Finalista Nacional – Cartão de Visita Digital Printz (2022)"
+      "Vencedor – Kit John Deere (2022)",
+      "Vencedor – Cartão de Visita Digital Printz (2022)"
     ]
   },
   {
