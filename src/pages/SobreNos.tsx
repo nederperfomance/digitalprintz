@@ -35,8 +35,8 @@ const SobreNos = () => {
             />
             
             <div className="flex flex-col md:flex-row items-center gap-4 text-sm font-light text-background/60">
-              <a href="/compliance" className="hover:text-background transition-colors">
-                Compliance
+              <a href="/compliance" className="hover:text-background transition-colors text-base font-normal">
+                Denúncias e Compliance
               </a>
               <span className="hidden md:inline">|</span>
               <span>© 2025 Digital PrintZ. Todos os direitos reservados.</span>

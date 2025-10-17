@@ -160,8 +160,8 @@ const Compliance = () => {
             />
             
             <div className="flex flex-col md:flex-row items-center gap-4 text-sm font-light text-background/60">
-              <Link to="/compliance" className="hover:text-background transition-colors">
-                Compliance
+              <Link to="/compliance" className="hover:text-background transition-colors text-base font-normal">
+                Denúncias e Compliance
               </Link>
               <span className="hidden md:inline">|</span>
               <span>© 2025 Digital PrintZ. Todos os direitos reservados.</span>
