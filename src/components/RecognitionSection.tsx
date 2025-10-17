@@ -5,8 +5,8 @@ const recognitions = [
       "Vencedor Nacional – Melhor Livro Institucional Book Torre – Cyrela / AMAP (2023)",
       "Vencedor Nacional – Relatório Socioambiental Granado Pharmácias (2023)",
       "Vencedor Nacional – Kit Promocional Press Kit QSF – Venko (2024)",
-      "Vencedor – Kit John Deere (2022)",
-      "Vencedor – Cartão de Visita Digital Printz (2022)"
+      "Vencedor Nacional – Kit John Deere (2022)",
+      "Vencedor Nacional – Cartão de Visita Digital Printz (2022)"
     ]
   },
   {
@@ -64,19 +64,27 @@ const RecognitionSection = () => {
 
                 {/* Recognition Items */}
                 <div className="space-y-6">
-                  {recognition.items.map((item, itemIndex) => (
-                    <div 
-                      key={itemIndex}
-                      className="group"
-                    >
-                      <div className="flex items-start space-x-4">
-                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <p className="text-base font-normal text-foreground leading-relaxed">
-                          {item}
-                        </p>
+                  {recognition.items.map((item, itemIndex) => {
+                    // Format text to make "Vencedor Nacional" and "Vencedor Paulista" bold
+                    const formattedItem = item
+                      .replace(/(Vencedor Nacional)/g, '<strong>$1</strong>')
+                      .replace(/(Vencedor Paulista)/g, '<strong>$1</strong>');
+                    
+                    return (
+                      <div 
+                        key={itemIndex}
+                        className="group"
+                      >
+                        <div className="flex items-start space-x-4">
+                          <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                          <p 
+                            className="text-base font-normal text-foreground leading-relaxed"
+                            dangerouslySetInnerHTML={{ __html: formattedItem }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
