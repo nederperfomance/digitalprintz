@@ -105,7 +105,7 @@ const ModernContact = () => {
             />
             
             <div className="flex flex-col md:flex-row items-center gap-4 text-sm font-light text-background/60">
-              <a href="/compliance" className="hover:text-background transition-colors text-base font-normal">
+              <a href="/compliance" className="hover:opacity-80 transition-opacity text-base font-bold text-primary">
                 Denúncias e Compliance
               </a>
               <span className="hidden md:inline">|</span>

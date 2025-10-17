@@ -160,7 +160,7 @@ const Compliance = () => {
             />
             
             <div className="flex flex-col md:flex-row items-center gap-4 text-sm font-light text-background/60">
-              <Link to="/compliance" className="hover:text-background transition-colors text-base font-normal">
+              <Link to="/compliance" className="hover:opacity-80 transition-opacity text-base font-bold text-primary">
                 Denúncias e Compliance
               </Link>
               <span className="hidden md:inline">|</span>
