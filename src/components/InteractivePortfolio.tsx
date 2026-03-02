@@ -119,15 +119,6 @@ const InteractivePortfolio = () => {
           </div>
         </div>
 
-        {/* View All Projects Link */}
-        <div className="mt-16 text-center animate-on-scroll">
-          <div className="inline-flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors cursor-pointer group">
-            <span className="text-sm font-medium tracking-wide">VER TODOS OS PROJETOS</span>
-            <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
-        </div>
       </div>
     </section>;
 };
