@@ -1,3 +1,12 @@
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { Card, CardContent } from "@/components/ui/card";
+
 const recognitions = [
   {
     category: "Fernando Pini (ABIGRAF Nacional)",
@@ -18,6 +27,19 @@ const recognitions = [
       "Vencedor Paulista – Press Kit QSF (2024)"
     ]
   }
+];
+
+const awardImages = [
+  "/images/premio-showcase-1.jpg",
+  "/images/premio-showcase-2.jpg",
+  "/images/premio-showcase-3.jpg",
+  "/images/premio-showcase-4.jpg",
+  "/images/premio-showcase-5.jpg",
+  "/images/premio-showcase-6.jpg",
+  "/images/premio-showcase-7.jpg",
+  "/images/premio-showcase-8.jpg",
+  "/images/premio-showcase-9.jpg",
+  "/images/premio-showcase-10.jpg",
 ];
 
 const RecognitionSection = () => {
@@ -51,7 +73,7 @@ const RecognitionSection = () => {
         </div>
 
         {/* Recognition Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl mx-auto mb-32">
           {recognitions.map((recognition, categoryIndex) => (
             <div key={categoryIndex} className="animate-on-scroll">
               <div className="space-y-8">
@@ -89,6 +111,39 @@ const RecognitionSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Image Carousel */}
+        <div className="mt-20 animate-on-scroll max-w-7xl mx-auto">
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent>
+              {awardImages.map((image, index) => (
+                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-1">
+                    <Card className="rounded-2xl overflow-hidden shadow-lg border-none">
+                      <CardContent className="flex aspect-[4/3] items-center justify-center p-0">
+                        <img 
+                          src={image} 
+                          alt={`Premiação Digital Printz ${index + 1}`}
+                          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <div className="flex justify-end mt-8 gap-4 mr-4">
+              <CarouselPrevious className="static translate-y-0 translate-x-0" />
+              <CarouselNext className="static translate-y-0 translate-x-0" />
+            </div>
+          </Carousel>
         </div>
 
         {/* Bottom Text */}
