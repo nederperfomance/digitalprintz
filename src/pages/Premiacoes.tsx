@@ -155,18 +155,6 @@ const Premiacoes = () => {
       {/* Awards Grid */}
       <section className="py-32 bg-background">
         <div className="w-full px-8 lg:px-16">
-          <div className="mb-20 animate-on-scroll">
-            <div className="flex items-center space-x-4 mb-8">
-              <div className="w-12 h-0.5 bg-primary"></div>
-              <span className="text-sm font-light text-muted-foreground tracking-widest uppercase">
-                Projetos Premiados
-              </span>
-            </div>
-            <h2 className="text-5xl md:text-7xl font-light text-foreground leading-tight">
-              Nossos
-              <span className="text-primary block">destaques</span>
-            </h2>
-          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {awards.map((award, index) => (
