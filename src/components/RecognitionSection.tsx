@@ -154,11 +154,14 @@ const RecognitionSection = () => {
       </div>
 
       <div className="w-full px-8 lg:px-16 mt-20">
-        {/* Bottom Text */}
-        <div className="text-center animate-on-scroll max-w-4xl mx-auto">
+        {/* Bottom Text + CTA */}
+        <div className="text-center animate-on-scroll max-w-4xl mx-auto space-y-8">
           <p className="text-lg font-light text-muted-foreground leading-relaxed">
             Cada conquista reforça nosso compromisso com a excelência gráfica e a criatividade que movem a Digital Printz.
           </p>
+          <Button asChild size="lg" className="rounded-full px-10">
+            <Link to="/premiacoes">Veja todos nossos prêmios</Link>
+          </Button>
         </div>
       </div>
     </section>
