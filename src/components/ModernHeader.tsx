@@ -25,6 +25,9 @@ const ModernHeader = () => {
             <a href="#produtos" className="text-sm font-light text-foreground hover:text-primary transition-colors">
               Nossos Produtos
             </a>
+            <Link to="/premiacoes" className="text-sm font-light text-foreground hover:text-primary transition-colors">
+              Premiações
+            </Link>
             <Link to="/fale-conosco" className="text-sm font-light text-foreground hover:text-primary transition-colors">
               Fale Conosco
             </Link>
