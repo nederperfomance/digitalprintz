@@ -61,6 +61,34 @@ const awards = [
     client: "QSF Bebidas Ltda",
     description: "Livro caixa com hot stamping verde, verniz localizado e composição gráfica geométrica de alto impacto.",
   },
+  {
+    image: "/images/premio-press-kit-qsf.jpg",
+    name: "Press Kit QSF",
+    prize: "5º Prêmio Paulista de Excelência Gráfica 2024 e 32º Prêmio Fernando Pini",
+    client: "QSF",
+    description: "Kit promocional criativo com arte urbana vibrante, caixa estruturada com acabamento diferenciado e identidade visual marcante.",
+  },
+  {
+    image: "/images/premio-duratex.jpg",
+    name: "Display Duratex",
+    prize: "6º Prêmio Paulista de Excelência Gráfica Luiz Metzler 2025",
+    client: "Duratex",
+    description: "Display mostruário com maleta estruturada em formato diferenciado, efeitos gráficos especiais e acabamento premium.",
+  },
+  {
+    image: "/images/premio-havaianas.jpg",
+    name: "Book Havaianas 60 Anos",
+    prize: "31º Prêmio Brasileiro de Excelência Gráfica Fernando Pini",
+    client: "Alpargatas S.A.",
+    description: "Livro comemorativo com capa texturizada, impressão vibrante de alta saturação e acabamento editorial premium.",
+  },
+  {
+    image: "/images/premio-axe-amor-amem.jpg",
+    name: "Livro Axé Amor Amém",
+    prize: "32º Prêmio Brasileiro de Excelência Gráfica Fernando Pini",
+    client: "Editora Afluente",
+    description: "Livro com formato especial, impressão em alta saturação cromática, acabamento artístico e encadernação diferenciada.",
+  },
 ];
 
 const Premiacoes = () => {
