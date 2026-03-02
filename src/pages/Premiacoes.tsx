@@ -190,7 +190,27 @@ const Premiacoes = () => {
         </div>
       </section>
 
-      {/* Authority / CTA Section */}
+      {/* Photo Collage */}
+      <section className="bg-background">
+        <div className="grid grid-cols-2 lg:grid-cols-4">
+          {[
+            { src: "/images/colagem-1.jpg", alt: "Livro Caixa QSF com troféu Fernando Pini" },
+            { src: "/images/colagem-2.jpg", alt: "Sacola Seeding Farm Rio com troféu Paulista" },
+            { src: "/images/colagem-3.jpg", alt: "Cartão de Visita Digital Printz com troféu Pini" },
+            { src: "/images/colagem-4.jpg", alt: "Troféu 6º Prêmio Paulista Luiz Metzler 2025" },
+          ].map((img, i) => (
+            <div key={i} className="aspect-square overflow-hidden">
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="py-32 bg-foreground">
         <div className="w-full px-8 lg:px-16">
           <div className="max-w-4xl mx-auto text-center animate-on-scroll">
