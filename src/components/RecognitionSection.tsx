@@ -6,6 +6,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
+import Autoplay from "embla-carousel-autoplay";
 
 const recognitions = [
   {
@@ -44,8 +45,8 @@ const awardImages = [
 
 const RecognitionSection = () => {
   return (
-    <section className="py-32 bg-card">
-      <div className="w-full px-8 lg:px-16">
+    <section className="py-32 bg-card overflow-hidden">
+      <div className="w-full px-8 lg:px-16 mb-20">
         {/* Header */}
         <div className="mb-24 animate-on-scroll">
           <div className="flex items-center space-x-4 mb-8">
@@ -112,42 +113,47 @@ const RecognitionSection = () => {
             </div>
           ))}
         </div>
+      </div>
 
-        {/* Image Carousel */}
-        <div className="mt-20 animate-on-scroll max-w-7xl mx-auto">
-          <Carousel
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-            className="w-full"
-          >
-            <CarouselContent>
-              {awardImages.map((image, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1">
-                    <Card className="rounded-2xl overflow-hidden shadow-lg border-none">
-                      <CardContent className="flex aspect-[4/3] items-center justify-center p-0">
-                        <img 
-                          src={image} 
-                          alt={`Premiação Digital Printz ${index + 1}`}
-                          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                        />
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            <div className="flex justify-end mt-8 gap-4 mr-4">
-              <CarouselPrevious className="static translate-y-0 translate-x-0" />
-              <CarouselNext className="static translate-y-0 translate-x-0" />
-            </div>
-          </Carousel>
-        </div>
+      {/* Image Carousel - Full Width */}
+      <div className="w-full animate-on-scroll">
+        <Carousel
+          opts={{
+            align: "start",
+            loop: true,
+            dragFree: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 3000,
+              stopOnInteraction: false,
+            }),
+          ]}
+          className="w-full"
+        >
+          <CarouselContent className="-ml-4">
+            {awardImages.map((image, index) => (
+              <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3 xl:basis-1/4">
+                <div className="h-[400px] w-full">
+                  <Card className="rounded-none border-none shadow-none h-full">
+                    <CardContent className="flex h-full items-center justify-center p-0 overflow-hidden rounded-2xl mx-2 shadow-lg">
+                      <img 
+                        src={image} 
+                        alt={`Premiação Digital Printz ${index + 1}`}
+                        className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+      </div>
 
+      <div className="w-full px-8 lg:px-16 mt-20">
         {/* Bottom Text */}
-        <div className="mt-20 text-center animate-on-scroll max-w-4xl mx-auto">
+        <div className="text-center animate-on-scroll max-w-4xl mx-auto">
           <p className="text-lg font-light text-muted-foreground leading-relaxed">
             Cada conquista reforça nosso compromisso com a excelência gráfica e a criatividade que movem a Digital Printz.
           </p>
